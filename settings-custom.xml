@@ -3,8 +3,8 @@
 	<servers>
 		<server>
 			<id>${M2_SETTINGS_REPO_ID}</id>
-			<username>testuser</username>
-			<password>password</password>
+			<username>${M2_SETTINGS_REPO_USERNAME}</username>
+			<password>${M2_SETTINGS_REPO_PASSWORD}</password>
 		</server>
 		<server>
 			<id>${DOCKER_SERVER_ID}</id>
