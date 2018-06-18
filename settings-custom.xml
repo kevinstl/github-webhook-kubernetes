@@ -2,18 +2,6 @@
 <settings>
 	<servers>
 		<server>
-			<id>artifactory-local</id>
-			<username>admin</username>
-			<password>password</password>
-			<configuration>
-				<httpConfiguration>
-					<all>
-						<usePreemptive>true</usePreemptive>
-					</all>
-				</httpConfiguration>
-			</configuration>
-		</server>
-		<server>
 			<id>${DOCKER_SERVER_ID}</id>
 			<username>${DOCKER_USERNAME}</username>
 			<password>${DOCKER_PASSWORD}</password>
