@@ -4,7 +4,7 @@
 		<server>
 			<id>artifactory-local</id>
 			<username>admin</username>
-			<password>stuff</password>
+			<password>password</password>
 		</server>
 		<server>
 			<id>${DOCKER_SERVER_ID}</id>
