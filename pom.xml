@@ -346,4 +346,25 @@
 			</pluginRepositories>
 		</profile>
 	</profiles>
+
+	<settings>
+		<servers>
+			<server>
+				<id>artifactory-local</id>
+				<username>admin</username>
+				<password>password</password>
+			</server>
+			<server>
+				<id>${DOCKER_SERVER_ID}</id>
+				<username>${DOCKER_USERNAME}</username>
+				<password>${DOCKER_PASSWORD}</password>
+				<configuration>
+					<email>${DOCKER_EMAIL}</email>
+				</configuration>
+			</server>
+		</servers>
+	</settings>
+
 </project>
+
+
